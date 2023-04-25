@@ -1,0 +1,177 @@
+.video-container{
+    height:80vh;
+    border-radius: 20px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+  
+}
+.video-container::-webkit-scrollbar{
+    display: none;
+}
+.videos{
+    position:relative;
+
+}
+.videos .fa{
+  position: absolute;
+  bottom:2rem;
+  left:1.3rem;
+
+  
+}
+.fa h4{
+
+    color: azure;
+    margin-top:4.2%;
+    margin-left: 0.5rem;
+}
+
+.icon-styling{
+    position: absolute;
+    top:14rem;
+    right:1.3rem;
+
+}
+.like{
+  cursor: pointer;
+  color:#e74c3c;
+  
+}
+.unlike{
+    cursor:pointer;
+    color:white;
+}
+.icon-styling:hover {
+    transform: scale(1.3);
+}
+.chat{
+    position: absolute;
+    top:17rem;
+    right:1.3rem;
+    color:#f5f6fa
+}
+.volume{
+    position:absolute;
+    top:19rem;
+    right:1.3rem;
+    
+}
+.chat:hover {
+    transform: scale(1.3);
+    color: #dfe4ea;
+}
+
+.modal-container{
+    display:flex;
+    height:100%;
+    width:100%;
+      
+}
+.video-box{
+   width:40%;
+   height:100%;
+   display: flex;
+   justify-content: center;
+ 
+  
+}
+.video-box video{
+    height:89vh;   
+}
+.comment{
+    width:60%;
+
+         
+}
+.card1{
+   
+    height:75vh;  
+}
+.card2{
+  
+    width: 33.5rem
+}
+
+
+.unlike{
+    color:#dfe4ea;
+    cursor:pointer;
+}
+
+
+@media only screen and (max-width:767px) and (min-width:320px) {
+   
+.modal-container{
+   
+    height:100%;
+    width:100%;
+    position:relative;
+      
+}
+.videos .fa{
+    position: absolute;
+    bottom:2rem;
+    left:2rem;
+  
+    
+  }
+
+.video-box{
+ 
+  visibility: collapse;
+ 
+  
+}
+.video-box video{
+    height:89vh;   
+}
+.comment{
+    width:100%;
+  
+     
+}
+.icon-styling{
+    position: absolute;
+    top:8rem;
+    right:1.5rem
+  
+   
+
+}
+.chat{
+    position: absolute;
+    top:11rem;
+    right:1.5rem;
+   
+}
+.card1{
+ position:absolute;
+ top:1rem;
+ left:1rem;
+ height:60%
+}
+.card2{
+    position:absolute;
+    bottom:0.2rem;
+    left:1rem;
+    width:14rem
+}
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px){
+.card1{
+    height:71vh; 
+}
+    .card2{
+     width:25rem
+    }
+}
+@media only screen and (max-width:1444px) and (min-width:1024px){
+  
+
+    .video-box video{
+        height:89vh;   
+    }
+
+    }

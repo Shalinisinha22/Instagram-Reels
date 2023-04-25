@@ -1,0 +1,104 @@
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+   
+    }
+    .login-card{
+       margin-top:8rem; 
+       width:24vw;
+      
+    }
+  
+    .insta-logo{
+      width:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:4%;
+   
+    }
+   .insta-logo img{
+     width:55%;
+  
+   }
+   .imgcar{
+   height:590px;
+   width:441px;
+   margin-top: 6vh;
+   margin-right:19vh ;
+   position:relative;
+
+   }
+   .car{
+    position:absolute;
+    height:423px;
+    width:241px;
+    left:143px;
+    top:93px;
+
+   }
+   @media only screen and (max-width:767px) and (min-width:320px) {
+
+    .login-wrapper{
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+     
+      }
+    .login-card{
+      margin-top:3rem; 
+      width:80vw;
+      margin-left: 15%;
+
+      
+   }
+   .insta-logo img{
+    width:40%;
+  
+  }
+  .imgcar{
+   
+    margin-right:10vh ;
+ 
+ 
+    }
+  
+   }
+   @media only screen and (max-width:1023px) and (min-width:768px) {
+
+  
+    .login-card{
+      margin-top:10rem; 
+      width:38vw; 
+      margin-right: 1rem;  
+   }
+   .insta-logo img{
+    width:40%;
+  }
+  .imgcar{
+   
+    margin-left:0; 
+   
+    }
+  
+   }
+   @media only screen and (max-width:1443px) and (min-width:1024px) {
+
+  
+    .login-card{
+      margin-top:10rem; 
+      width:38vw; 
+      margin-right: 1rem;  
+   }
+   .insta-logo img{
+    width:40%;
+  }
+  .imgcar{
+   
+    margin-left:0; 
+   
+    }
+  
+   }
+  
+  

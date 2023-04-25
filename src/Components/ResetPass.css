@@ -1,0 +1,54 @@
+.reset-wrapper{
+  display: flex;
+  justify-content: center;
+ 
+  }
+  .reset-card{
+     margin-top:10rem; 
+     width:30vw;
+    
+  }
+
+  .insta-logo{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2%;
+ 
+  }
+
+
+ @media only screen and (max-width:767px) and (min-width:320px) {
+
+  .reset-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+  .reset-card{
+    margin-top:3rem; 
+    width:80vw;
+    margin-left: 10%;
+
+    
+ }
+
+
+ }
+ @media only screen and (max-width:1023px) and (min-width:768px) {
+
+
+  .reset-card{
+    margin-top:3rem; 
+    width:80vw;
+    margin-left: 3%;
+    width:40vw;
+
+    
+ }
+
+
+
+ }
