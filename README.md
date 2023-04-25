@@ -1,3 +1,4 @@
+<h3>Link:</h3> https://reels-817a4.web.app/
 <h1>Reels App</h1>
 <p>A simple and easy to use Instagram reels clone made using reactjs and firebase where users can signup and upload short videos, like posts uploaded by other users and comment on them.</p>
 
@@ -23,7 +24,17 @@
 ![Home](https://user-images.githubusercontent.com/122859073/234279428-d91d1ef8-ba00-4d29-b64a-2f700a7fd291.png)
 
 
+![comment](https://user-images.githubusercontent.com/122859073/234288431-cec61622-dc26-410a-8bae-064072af8758.png)
 
 <h3>Profile page</h3>
 
 ![profilepage](https://user-images.githubusercontent.com/122859073/234279478-e3341886-5c94-475f-bcde-d1a1f0a61ff3.png)
+
+<h3>Here are my social media handles:<h3>
+
+
+Linkedin:https://www.linkedin.com/in/shalini-sinha-bbb943202/<br>
+
+Email:shalinisinha.cspatna@gmail.com
+
+<h4>Thank you!<h4>
